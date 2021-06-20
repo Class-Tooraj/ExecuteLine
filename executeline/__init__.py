@@ -4,6 +4,6 @@ __email__ = "Toorajjahangiri@gmail.com"
 ###########################################
 
 # IMPORT
-from . execline import Signal, ExeLine
+from . src import Signal, ExeLine
 
 __all__ = ("Signal", "ExeLine")
