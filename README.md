@@ -6,7 +6,9 @@
 
 ### What does it do?
 
-Executes your program "Callable Objects" one by one.
+This Module Executes your Python Program "Callable Objects" one by one.
+
+this module speedup your program. because focused  only one object at time.
 
 ### Quick Start
 
@@ -78,21 +80,24 @@ ex = next(itex)
 example wait for call **run method**
 
 ```python
-show_me = lambda *x: print(f"PocketIndex: {x[0]}\tName: {x[1]}\tObjectName: {x[2]}\tReturnEx{x[-1]}")
-
 # Initialize Exeline
 execute = Exeline(False)	# run is False
-
 # Connect Return Signal
+show_me = lambda *x: print(f"PocketIndex: {x[0]}\tName: {x[1]}\tObjectName: {x[2]}\tReturnEx{x[-1]}")
 execute.Return_Connect(show_me)
-
 # Append To Pocket
 execute.append_pocket("MyObj", dosomething, (10, 15), {'NameOnlyArgu': 'Hello', 'other': 'World'})
-
 # Iteration
 execute.run()
 ```
 
 ---
 
-author : toorajjahangiri
+### Exeline Map
+
+![image-exelinemap](C:\Users\Tooraj\Downloads\Exeline map chart 1.png)
+
+---
+
+
+

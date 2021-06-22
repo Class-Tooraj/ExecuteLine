@@ -71,7 +71,7 @@ class ExeLine:
         self.__pocket.append((name_id, func, arg, kwarg))
         if not self.__RUNNING and self.__run:
             self.run()
-    
+
     def line(self) -> list[tuple[int, Union[str, bytes]]]:
         """[Pocket Line View]
 
