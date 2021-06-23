@@ -15,19 +15,19 @@ this module speedup your program. because focused  only one object at time.
 First must Install library with **pip**
 
 ```shell
-pip install executeline
+pip install ExecuteLine
 ```
 
 after installation must be **import** this library
 
 ```python
-import executeline
+import ExecuteLine
 ```
 
  **or** if you need only **Exeline** module
 
 ```python
-from executeline import Exeline
+from ExecuteLine import Exeline
 ```
 
 Now **executeline** ready to use .
