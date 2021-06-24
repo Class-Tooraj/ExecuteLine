@@ -95,7 +95,7 @@ execute.run()
 
 ### Exeline Map
 
-![image-exelinemap](E:\LittleProject\ExecLine\exemap.png)
+![image-exelinemap](https://github.com/Class-Tooraj/ExecuteLine/blob/main/exemap.png)
 
 ---
 
